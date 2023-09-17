@@ -1,11 +1,7 @@
-npx react-native@latest init revenuechattest
+`yarn add react-native-iap && cd ios && pod install`, then add this
+<uses-permission android:name="com.android.vending.BILLING" /> to the manifest file for android
 
-https://www.revenuecat.com/docs/getting-started#4-using-revenuecats-purchases-sdk
-yarn add react-native-purchases && cd ios && pod repo update && pod install
-
-add this <uses-permission android:name="com.android.vending.BILLING" /> to the manifest file
-
-then open the project in xcode and enable in-app purchases
+then open the project in xcode and enable in-app purchases in the capabilities section
 
 # Types of In-app payment
 
