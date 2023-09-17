@@ -46,6 +46,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-revenuechattest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-revenuechattest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = revenuechattest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-revenuechattest-revenuechattestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-revenuechattest-revenuechattestTests.release.xcconfig"; path = "Target Support Files/Pods-revenuechattest-revenuechattestTests/Pods-revenuechattest-revenuechattestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3904A5D2AB710340056F395 /* ProductionConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ProductionConfiguration.storekit; sourceTree = "<group>"; };
 		D3A1BEE22AB38F0B007772C9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		D3A1BEED2AB4B7B2007772C9 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -123,6 +124,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D3904A5D2AB710340056F395 /* ProductionConfiguration.storekit */,
 				D3A1BEED2AB4B7B2007772C9 /* Configuration.storekit */,
 				13B07FAE1A68108700A75B9A /* revenuechattest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,

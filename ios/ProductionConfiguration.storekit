@@ -1,0 +1,158 @@
+{
+  "identifier" : "3BE5BB22",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "12.99",
+      "familyShareable" : false,
+      "internalID" : "6466739347",
+      "localizations" : [
+        {
+          "description" : "Gold level localization",
+          "displayName" : "Gold level localization",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "gold_level",
+      "referenceName" : "Gold Level",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "5.99",
+      "familyShareable" : false,
+      "internalID" : "6466739311",
+      "localizations" : [
+        {
+          "description" : "silver localization",
+          "displayName" : "Silver localization",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "silver_level",
+      "referenceName" : "Silver Level",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6466603469",
+    "_developerTeamID" : "TX893DCDY6",
+    "_lastSynchronizedDate" : 716640580.96508205
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21388823",
+      "localizations" : [
+
+      ],
+      "name" : "Premium Features",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "6466738831",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Premium Monthly",
+              "displayName" : "Premium Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "monthly_subscription",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Subscription",
+          "subscriptionGroupID" : "21388823",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 4,
+          "internalID" : "6466739161",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Two month subscription",
+              "displayName" : "Two month subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "two_month_subscription",
+          "recurringSubscriptionPeriod" : "P2M",
+          "referenceName" : "Two month subscription",
+          "subscriptionGroupID" : "21388823",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6466739008",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Premium features",
+              "displayName" : "Premium features",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "weekly_subscription",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Weekly Subscription",
+          "subscriptionGroupID" : "21388823",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6466738493",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Available everywhere",
+              "displayName" : "worldwide availability",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "yearly_subscription",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yearly Subscription",
+          "subscriptionGroupID" : "21388823",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

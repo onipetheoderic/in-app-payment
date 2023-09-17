@@ -27,7 +27,7 @@ function App(): JSX.Element {
   const [purchases, setPurchases] = useState<Purchase[]>([]);
 
   const subscriptionSkus = Platform.select({
-    default: ['yearly_subscription', 'monthly_subscription'],
+    default: ['yearly_subscription', 'monthly_subscription', 'weekly_subscription', 'two_month_subscription'],
   }) as string[];
 
   const productSkus = Platform.select({
@@ -47,7 +47,7 @@ function App(): JSX.Element {
   const handleGetProducts = async () => {
     try {
       const products = await getProducts({ skus: productSkus });
-
+      // products.sort((a, b) => parseFloat(a.price) - parseFloat(b.price)).reverse();
       setProducts(products);
     } catch (error) {
       console.log(error);
