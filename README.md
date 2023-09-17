@@ -1,3 +1,7 @@
+React Native In-App Payment: Tutorial for React native in-app payment and subscriptions made easy. support for IOS and andrioid
+React Native iap and appstore connect
+======================================
+
 `yarn add react-native-iap && cd ios && pod install`, then add this
 <uses-permission android:name="com.android.vending.BILLING" /> to the manifest file for android
 
